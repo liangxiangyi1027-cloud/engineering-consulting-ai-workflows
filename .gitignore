@@ -1,0 +1,28 @@
+# Office temporary files
+~$*
+*.tmp
+*.bak
+
+# Local runtime and generated caches
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+node_modules/
+dist/
+build/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Sensitive local material
+*.key
+*.pem
+.env
+.env.*
+
+# Large source documents should be reviewed before commit
+原始资料/
+涉密资料/
+未脱敏资料/
